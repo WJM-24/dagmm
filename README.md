@@ -91,6 +91,6 @@ I tried using `torch.potrf(cov_k).diag().prod()**2` to compute for the determina
             sample_energy = torch.mean(sample_energy)
 
         return sample_energy, cov_diag
-测试
+#测试
 ```
 
